@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p a{
+    display: inline;
+}
+
+.col-12{
+    height: 400px;
+}
+
+
+
+@media (min-width: 576px) {
+    .disp{
+        display: none;
+    }
+
+    .disp li{
+       display: none; 
+    }
+
+    p a{
+    display: none;
+}
+
+}
